@@ -12,20 +12,7 @@
 };
 useEffect(()=>
 getHeroWithMovies(),setSearchResults)
-  // const [hero, setHero] =React.useState(<StartHero/> );
-  // const routes ={
-  //   home: {
-  //     component: () =>  <StartHero/>
-  //   },
-  //   Cartoons: {
-  //     component: () => <CartoonsHero/>
-  //   }
-  // }
-  // const BASE_URL = 'http://www.omdbapi.com/?apikey=5bd71ded';
-  // const key = '5bd71ded'
-  // const options = {
-  //     method: 'GET'
-  // }   
+ 
    
   const getMovieRequest = (setTOPInputValue) => {
       const url = `http://www.omdbapi.com/?s=${topInputValue}&apikey=5bd71ded&`;
